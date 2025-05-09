@@ -5,7 +5,7 @@ import 'package:reelark/presentation/presentation.dart';
 class AppRouter {
  
   static final router = GoRouter(
-    initialLocation: AppRoutes.login,
+    initialLocation: AppRoutes.home,
     routes: [
       GoRoute(
         path: AppRoutes.home,
